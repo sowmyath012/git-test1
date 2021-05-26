@@ -1,0 +1,45 @@
+body{
+    font-family:"Open-sans",sans-serif;
+    }
+
+    h1,h2,h3{
+        font-family: "Lobster",cursive;
+    }
+    h2{
+        color:blue;
+    }
+    header h2{
+        color:chartreuse;
+    }
+   .site-footer{
+        background-image: linear-gradient(#CEC8FF, white);
+        padding: 20px 0;
+    }
+    .img-fluid{
+        max-width:100%;
+        height:auto;
+    }
+    .img-thumbnail{
+        padding:0.25re;
+        background-color: #fff;
+        border:1px solid #dee2e6;
+        border-radius:0.25rem;
+        max-width:100%;
+        height:auto;
+    }
+   
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    color: white;
+    margin: 0;
+}
+.row-content{
+    padding:50px 0;
+border-bottom: 1px ridge;
+min-height:200px;
+}
+.navbar{
+ background-color:#901CAD;
+}
+   

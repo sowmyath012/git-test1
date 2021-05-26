@@ -1,0 +1,14 @@
+.jumbotron{
+    padding: 30px;
+    margin: 0;
+    background-image: linear-gradient(blue,pink) ;
+}
+h1,h2,h3{
+    font-family:Lobster;
+}
+footer{
+    background-image: linear-gradient(cyan, pink) ;
+}
+.navbar{
+    background-color: #901CAD;
+}
