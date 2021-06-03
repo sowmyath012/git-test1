@@ -6,13 +6,13 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
     
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-         <!-- Additional CSS must be placed after Bootstrap CSS -->
-     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css"/>    
-     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+       <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <!-- endbuild -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
     
         <title>NuCamp: A Better Way To Camp</title>
     </head>
@@ -168,11 +168,13 @@
         <div class="row row-content">
             <div class="col-md-8 mx-auto">
                 <div id="homeCarousel " class="carousel-slide" data-ride="carousel">
+                  
                     <ol class="carousel-indicators">
                         <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
                         <li data-target="#homeCarousel" data-slide-to="1"></li>
-                        <li data-target=" #homeCarousel" data-slide-to="2"></li>
+                        <li data-target="#homeCarousel" data-slide-to="2"></li>
                     </ol>
+
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                         <img class="d-block w-100" src="img/breadcrumb-trail.jfif" alt="Breadcrumb Trail campground"/>
@@ -200,13 +202,19 @@
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
-                   <span class="carousel-control-prev-icon"></span>
-                   <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
-                   <span class="carousel-control-next-icon"></span>
-                   <span class="sr-only">Previous</span>
-                 </a>
+                        <span class="carousel-control-prev-icon"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                 
+                        <button class="btn btn-danger btn-sm" id="carouselButton">
+                            <i class="fa fa-pause"></i>
+                        </button>
+                        
+                    </div>
                 </div>
             </div>
         </div>
@@ -292,11 +300,17 @@
             </div>
         </div>
     </footer>
-    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
+       
+     
     
+    </script>
+
      
 </body>
 
